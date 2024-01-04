@@ -1,0 +1,35 @@
+---
+title: "Created"
+output: html_document
+date: "2023-07-17"
+---
+
+```{r setup, include=FALSE}
+```
+
+# Introduction
+
+Welcome to the Site Index Calculation App! This app allows you to upload a CSV file that has species-wise Height and Age data for to calculate various site index values based on different equations. This app is applicable to the Californian Mixed-Conifer Species. For the equation and documentation please check the following reference:
+
+Click [here](https://www.fs.usda.gov/rm/pubs/rmrs_gtr292/2005_krumland.pdf) for the reference paper.
+
+The Equations used in this application are as follow:
+
+![](equation.png)
+
+# How to use this application
+
+1. Upload a CSV file using the given format with each column header name exactly as shown in the image below. Note that Stand, plot and TreeNo are optional input, while Species, Height=HT (feet) and Age are the mandatory input.
+
+![Sample](Sample.png)
+
+[Download Template CSV](./Template.csv)
+
+2. Click the "Process Data" button to perform the data processing.
+3. The processed data will be displayed in the main panel as a table.
+4. You can download the updated file by clicking the "Download Updated File" button.
+5. For the graphs, go to the "Site Index Plot" tab and modify the equation by scrolling through the "Select Equation' handler on the left of the page.
+
+## Contact
+
+If you have any questions or need assistance, please reach out to our support team at support@example.com.
